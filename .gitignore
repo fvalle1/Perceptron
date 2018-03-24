@@ -1,0 +1,14 @@
+
+\.idea/
+
+cmake-build-debug/
+CMakeFiles/
+
+tests/lib/googletest-master/CMakeFiles
+tests/Makefile
+tests/net_test
+
+*.a
+*.cbp
+*.so
+*.d
