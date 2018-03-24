@@ -4,11 +4,21 @@
 cmake-build-debug/
 CMakeFiles/
 
-tests/lib/googletest-master/CMakeFiles
-tests/Makefile
-tests/net_test
+CMakeFiles
+Makefile
+
 
 *.a
 *.cbp
 *.so
 *.d
+
+*.pc
+
+*.cmake
+
+*.txt
+
+perceptron
+
+tests/perceptron_test
