@@ -20,7 +20,7 @@ using std::vector;
 template <class datatype>
 class Perceptron {
 public:
-    Perceptron(const vector<datatype> &fW, vector<datatype> fy, unsigned int numOfData, uint32_t seed=42);
+    Perceptron(const vector<datatype> &fX, vector<datatype> fy, unsigned int numOfData, uint32_t seed=42);
 
 
     void fit();
@@ -28,7 +28,7 @@ public:
 
 private:
     bool fTrained;
-    
+
     vector<datatype> fW_delta;
     vector<datatype> fW;
     vector<datatype> fX;
